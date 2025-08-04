@@ -1044,7 +1044,9 @@
                 }
             });
         }
-        
+
+        document.addEventListener("DOMContentLoaded", checkFadeElements);
+
         window.addEventListener('scroll', checkFadeElements);
         window.addEventListener('resize', checkFadeElements);
         window.addEventListener('load', checkFadeElements);
